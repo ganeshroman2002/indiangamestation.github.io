@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../1.jpg);
+	position: top;
+	margin-left: 20px;
+	margin-right: 1px;
+	height: 500vh;
+	width: 220vh;
+	background-size: cover;
+	background-position: center;
+}
+.logo img{
+	float: left;
+	width: 800px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+	.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-60%,-50%);
+}
+.btn{
+	border: 5px solid #ff5;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.9s ease;
+}
+.btn:hover{
+		background-color: #fff;
+	color: #000;
+}
+.pubgbutton-group{
+	float: left;
+	position: inline-block;
+	margin-top: 20%;
+	border: 10px solid #000000;
+	padding: 40px 60px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.9s ease;
+}
+
+.pubgbutton-group:hover{
+		background-color: #fff;
+	color: #000;
+}
+.FreeFirebutton-group{
+	float: left;
+	position: inline-block;
+	margin-top: 20%;
+	border: 10px solid #000000;
+	padding: 40px 60px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.9s ease;
+}
+.FreeFirebutton-group:hover{
+		background-color: #fff;
+	color: #000;
+}
+.eventbtn{
+	font-size: 30px;
+	float: middle;
+	position: inline-block;
+	margin-top: 20%;
+	border: 10px solid #000000;
+	padding: 40px 60px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.9s ease;
+
+}
